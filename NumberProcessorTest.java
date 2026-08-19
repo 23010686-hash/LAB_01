@@ -16,7 +16,7 @@ class NumberProcessorTest {
 
     @Test
     void testPathCoverage() {
-        NumberProcessor processor = new NumberProcessor();
+        NumberProcessor processor = new NumberProcessor(); // 
 
         assertEquals(0, processor.sumEvenNumbers(null));                // Đường 1: Mảng null
         assertEquals(0, processor.sumEvenNumbers(new int[]{}));          // Đường 2: Mảng rỗng (không vào for)
